@@ -20,6 +20,11 @@ vi docker-compose.yml
 docker-compose up -d
 docker-compose exec st2client bash  # this gives you access to the st2 command line
 ```
+添加pack
+```shell
+docker-compose exec st2client st2 pack install https://github.com/liyuleizhang/hello_st2.git
+```
+
 浏览器输入本机ip地址访问
 用户名：st2admin
 密码：Ch@ngeMe
