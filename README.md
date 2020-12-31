@@ -1,7 +1,5 @@
 # StackStorm Docker Compose 部署方法
-[![Circle CI Build Status](https://circleci.com/gh/StackStorm/st2-docker/tree/master.svg?style=shield)](https://circleci.com/gh/StackStorm/st2-docker)
 
-This docker-compose is provided as a way to allow "get up and running" quickly with StackStorm using Docker (based on [st2-dockerfiles](https://github.com/stackstorm/st2-dockerfiles)). It is not designed to be used in production, but rather a way to test out StackStorm and facilitate pack development.
 > If you need Highly Availability experience, there is Kubernetes installation available via Helm charts at https://docs.stackstorm.com/install/k8s_ha.html.
 
 提供这种 Docker-compose 是为了使用 Docker (基于 st2-dockerfiles)使用 StackStorm 快速“启动并运行”。它不是设计用于生产，而是一种测试 StackStorm 和促进包开发的方法。
